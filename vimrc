@@ -1,4 +1,9 @@
 filetype plugin on
+
+" For pathogen.vim: auto load all plugins in .vim/bundle
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set tabstop=4
 set shiftwidth=4
 set autoindent
