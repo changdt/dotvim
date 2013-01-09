@@ -7,3 +7,9 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/vim-scripts/ack.vim.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/vim-scripts/surround.vim.git
+[submodule "bundle/vim-indent-object"]
+	path = bundle/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
