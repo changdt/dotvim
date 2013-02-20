@@ -28,3 +28,8 @@ nnoremap <silent> <C-S> :if expand("%") == ""<CR>browse confirm w<CR>else<CR>con
 " let g:ConqueTerm_Color = 1
 let g:ConqueTerm_ReadUnfocused = 1
 
+" powerline plugin parameter
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+set t_Co=256
+let g:Powerline_symbols='fancy'
