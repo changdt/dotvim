@@ -31,5 +31,6 @@ let g:ConqueTerm_ReadUnfocused = 1
 " powerline plugin parameter
 set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
+set laststatus=2
 set t_Co=256
 let g:Powerline_symbols='fancy'
