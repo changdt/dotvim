@@ -34,3 +34,6 @@ set nocompatible
 set laststatus=2
 set t_Co=256
 let g:Powerline_symbols='fancy'
+
+" EasyMotion leader key define
+let g:EasyMotion_leader_key=','
