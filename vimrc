@@ -37,3 +37,14 @@ let g:Powerline_symbols='fancy'
 
 " EasyMotion leader key define
 let g:EasyMotion_leader_key=','
+
+" color scheme
+if has("gui_running")
+    set guifont=DejaVu\ Sans\ Mono\ 9
+endif
+set cursorline          "highlight current line
+set background=dark
+colorscheme solarized
+
+" set default filetype as Javascript
+au BufEnter,BufNewFile,BufRead * if &ft == '' | set ft=javascript | endif
